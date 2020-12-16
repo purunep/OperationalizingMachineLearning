@@ -1,12 +1,10 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
 
 # Operationalizing Machine Learning
-This project is part of the Udacity Azure ML Nanodegree. In this project, I have build and deploy model and consume the endpoint using REST api call. For building, deploying the model I am using Microsoft Azure Auto ML and also using Azure ML pipeline. For the training I am using Bank marketing training data set from the following link : https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv 
+This project is part of the Udacity Azure ML Nanodegree. In this project, We have built and deploy model and consume the endpoint using REST API call. For building, deploying the model We are using Microsoft Azure Auto ML and also using the Azure ML pipeline. For the training we are using Bank marketing training data set from the following [link](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv/)
 The classfication model goal is to predicts if a client will subscribe to a fixed term deposit with a financial institution. 
 
 ## Architectural Diagram
-Here is the Architectural diagram that shows all the main step from creating a dataset to Auto ML and choosing the best model from the trained model. After we choose the best model , we published and consume the endpoint.
+Here is the Architectural diagram that shows all the main step from creating a dataset to Auto ML and choosing the best model from the trained model. After we choose the best model, we published and consume the endpoint.
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/ArchitectureDiagram.png)
 
 
