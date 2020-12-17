@@ -5,6 +5,7 @@ The classfication model goal is to predicts if a client will subscribe to a fixe
 
 ## Architectural Diagram
 Here is the Architectural diagram that shows all the main step from creating a dataset to Auto ML and choosing the best model from the trained model. After we choose the best model, we published and consume the endpoint.
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/ArchitectureDiagram.png)
 
 
@@ -26,8 +27,17 @@ The compute target we created is shown below:
 Once AutoML run completed, view the best model and select it to see more detail metrics about it.
 Here is the screen that shows Auto ML run completed:
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/run_completed2.png)
+Here are all the models that run during Auto ML training.
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/all_run_models.png)
+We found "VotingEnsemble" as the best model, with accuracy of 0.91715.
+We can view the metrics details by selecting it as shown below:
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/metrics.png)
+
 
 #### Deploy the best model
+Select the best model and deploy the model as shown below:
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/modeldeploy.png)
+
 #### Enable Application insights to the best model
 We enable application insights with the following code from logs.py file
 #### View the model endpoint in Swagger
