@@ -10,12 +10,23 @@ Here is the Architectural diagram that shows all the main step from creating a d
 
 ## Key Steps
 #### Register the DataSet
-we registered the dataset from web url:  https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv 
+we registered the dataset from web url [link](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv/)
 and once registered it will show as below:
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/dataset.png)
+
 #### Create a AutoML experiment
-After we registered the dataset create the AutoML experiment by selecting the dataset. Which will take around 30-40 minutes to complete.
+After we registered the dataset create the AutoML experiment by selecting the dataset. We choosed the target column as "y" as shown below.
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/experiment.png)
+We defined the exit criteria as shown below and ran the experiment for 1 hour.
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/exitcriteria.png)
+The compute target we created is shown below:
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/compute.png)
+
 #### View and Select the best model
-Once AutoML completed view the best model and select it to see more detail metrics about it
+Once AutoML run completed, view the best model and select it to see more detail metrics about it.
+Here is the screen that shows Auto ML run completed:
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/run_completed2.png)
+
 #### Deploy the best model
 #### Enable Application insights to the best model
 We enable application insights with the following code from logs.py file
