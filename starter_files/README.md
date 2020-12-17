@@ -34,6 +34,7 @@ Once AutoML run completed, view the best model and select it to see more detail 
 Here is the screen that shows Auto ML run completed:
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/run_completed2.png)
+
 Here are all the models that run during Auto ML training.
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/allmodels.png)
@@ -58,6 +59,7 @@ Once Application insights enabled we can check in UI and also see the page as be
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/application_insights_true.png)
 
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/application_insights_page.png)
 
 #### View the model endpoint in Swagger
@@ -65,21 +67,24 @@ Using Swagger, we can see all available endpoints and sample to call each endpoi
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/swagger3.png)
 
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/swagger_ui1.png)
 
 #### Consume the deployed model
-Consume the deployed model using endpoint.py, We have updated teh endpoint.py for specifying the deployed model score url and the key.
-Then ran the script as shown in command below: 
+Consume the deployed model using endpoint.py, We have updated the endpoint.py for specifying the deployed model score url and the key as shown below:
+
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/endpointupdated.png)
 
-We are doing the POST call here with JSON payload.
+ We are doing the POST call here with JSON payload. Then ran the script as shown in command below: 
+ 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/endpointcall.png)
 
 #### Apache Benchmark
 Also, I have created teh benmark using Apache Benchmark command. The screen below shows the ran benchmark metrics:
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/ab1.png)
+
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/ab_run.png)
 
@@ -93,7 +98,9 @@ The screen below shows the ran pipeline and in completed status.
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipeline_run_completed.png)
 
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipline_completed2.png)
+
 
 The pipeline is then submitted and deployed. It has also the endpoints that we can call using SDK.
 
