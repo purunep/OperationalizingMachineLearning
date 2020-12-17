@@ -36,12 +36,12 @@ Here is the screen that shows Auto ML run completed:
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/run_completed2.png)
 Here are all the models that run during Auto ML training.
 
-![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/all_run_models.png)
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/allmodels.png)
 
 We found "VotingEnsemble" as the best model, with accuracy of 0.91715.
 We can view the metrics details by selecting it as shown below:
 
-![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/metrics.png)
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/metrics_updated.png)
 
 
 #### Deploy the best model
