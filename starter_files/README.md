@@ -71,4 +71,6 @@ We also used the Jupyter Notebook to create a pipeline endpoints. Here are diffe
 We can further improve the model by cleaning data so that the datas is balanced and not biased to any one. Also we can run AutoML for longer duration to try out different models.
 
 ## Screen Recording
-Here is the screencast that demonstrated all the above mentioned process: 
+Here is the screencast that demonstrated all the above mentioned process. Plese click on 
+[link](https://www.youtube.com/watch?v=wGTl6yhKCxo&feature=youtu.be)
+
