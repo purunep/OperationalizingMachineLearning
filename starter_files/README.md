@@ -61,11 +61,44 @@ Once Application insights enabled we can check in UI and also see the page as be
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/application_insights_page.png)
 
 #### View the model endpoint in Swagger
+Using Swagger, we can see all available endpoints and sample to call each endpoint. Here is the Swagger UI, generated for the deployed Auto ML model.
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/swagger3.png)
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/swagger_ui1.png)
+
 #### Consume the deployed model
-Consume the deployed model using endpoint.py. We are doing the POST call here with JSOn payload.
-#### Apache benchmark
+Consume the deployed model using endpoint.py, We have updated teh endpoint.py for specifying the deployed model score url and the key.
+Then ran the script as shown in command below: 
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/endpointupdated.png)
+
+We are doing the POST call here with JSON payload.
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/endpointcall.png)
+
+#### Apache Benchmark
+Also, I have created teh benmark using Apache Benchmark command. The screen below shows the ran benchmark metrics:
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/ab1.png)
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/ab_run.png)
+
+
 #### Using SDK to create the pipeline
-We also used the Jupyter Notebook to create a pipeline endpoints. Here are different steps for it
+We also used the Jupyter Notebook to create a pipeline endpoints. we have updated the different parameters in the notebook and
+ran each steps from the notebook "aml-pipelines-with-automated-machine-learning-step.ipynb". The outputs of each step are shown in the
+[Notebook](https://github.com/purunep/udacityProject2/blob/main/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb)
+
+The screen below shows the ran pipeline and in completed status.
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipeline_run_completed.png)
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipline_completed2.png)
+
+The pipeline is then submitted and deployed. It has also the endpoints that we can call using SDK.
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipeline_endpoint.png)
+
 
 ## Further Improvement
 We can further improve the model by cleaning data so that the datas is balanced and not biased to any one. Also we can run AutoML for longer duration to try out different models.
