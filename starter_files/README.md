@@ -13,33 +13,53 @@ Here is the Architectural diagram that shows all the main step from creating a d
 #### Register the DataSet
 we registered the dataset from web url [link](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv/)
 and once registered it will show as below:
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/dataset.png)
 
 #### Create a AutoML experiment
 After we registered the dataset create the AutoML experiment by selecting the dataset. We choosed the target column as "y" as shown below.
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/experiment.png)
+
 We defined the exit criteria as shown below and ran the experiment for 1 hour.
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/exitcriteria.png)
+
 The compute target we created is shown below:
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/compute.png)
 
 #### View and Select the best model
 Once AutoML run completed, view the best model and select it to see more detail metrics about it.
 Here is the screen that shows Auto ML run completed:
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/run_completed2.png)
 Here are all the models that run during Auto ML training.
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/all_run_models.png)
+
 We found "VotingEnsemble" as the best model, with accuracy of 0.91715.
 We can view the metrics details by selecting it as shown below:
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/metrics.png)
 
 
 #### Deploy the best model
 Select the best model and deploy the model as shown below:
+
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/modeldeploy.png)
 
 #### Enable Application insights to the best model
 We enable application insights with the following code from logs.py file
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/enable_app_insights_code.png)
+
+Once Application insights enabled we can check in UI and also see the page as below:
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/application_insights_true.png)
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/application_insights_page.png)
+
 #### View the model endpoint in Swagger
 #### Consume the deployed model
 Consume the deployed model using endpoint.py. We are doing the POST call here with JSOn payload.
@@ -49,8 +69,6 @@ We also used the Jupyter Notebook to create a pipeline endpoints. Here are diffe
 
 ## Further Improvement
 We can further improve the model by cleaning data so that the datas is balanced and not biased to any one. Also we can run AutoML for longer duration to try out different models.
+
 ## Screen Recording
 Here is the screencast that demonstrated all the above mentioned process: 
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
