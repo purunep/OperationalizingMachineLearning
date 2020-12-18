@@ -104,6 +104,10 @@ ran each steps from the notebook "aml-pipelines-with-automated-machine-learning-
 The follwing screen shows the run details widget :
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/rundetails.png)
 
+The below screen shows the pipeline has been created:
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipeline_running2.png)
+
 The screen below shows the ran pipeline and in completed status.
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipeline_run_completed.png)
