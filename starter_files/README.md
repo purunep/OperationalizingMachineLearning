@@ -50,10 +50,17 @@ Select the best model and deploy the model as shown below:
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/deploymodel_auth.png)
 
-#### Enable Application insights to the best model
-We enable application insights with the following code from logs.py file
+### Enable Application insights
+Application insights is a analytics tools to help us diagnose issues and to monitoring all of the service.
+We can enable application insights by running the python script "logs.py" as shown below
+
+#### Code to enable Application insights
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/enable_app_insights_code.png)
+
+It shows as below after we ran
+
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/ranlogpy.png)
 
 Once Application insights enabled we can check in UI and also see the page as below:
 
@@ -93,6 +100,9 @@ Also, I have created teh benmark using Apache Benchmark command. The screen belo
 We also used the Jupyter Notebook to create a pipeline endpoints. we have updated the different parameters in the notebook and
 ran each steps from the notebook "aml-pipelines-with-automated-machine-learning-step.ipynb". The outputs of each step are shown in the
 [Notebook](https://github.com/purunep/udacityProject2/blob/main/starter_files/aml-pipelines-with-automated-machine-learning-step.ipynb)
+
+The follwing screen shows the run details widget :
+![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/rundetails.png)
 
 The screen below shows the ran pipeline and in completed status.
 
