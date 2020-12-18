@@ -52,7 +52,7 @@ Select the best model and deploy the model as shown below:
 
 ### Enable Application insights
 Application insights is a analytics tools to help us diagnose issues and to monitoring all of the service.
-We can enable application insights by running the python script "logs.py" as shown below
+We can enable application insights by UI or by running the python script.
 
 #### Code to enable Application insights
 
@@ -109,9 +109,6 @@ The below screen shows the pipeline has been created:
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipeline_running2.png)
 
 The screen below shows the ran pipeline and in completed status.
-
-![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipeline_run_completed.png)
-
 
 ![alt text](https://github.com/purunep/udacityProject2/blob/main/Images/pipline_completed2.png)
 
